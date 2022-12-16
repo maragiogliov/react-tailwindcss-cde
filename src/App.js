@@ -4,7 +4,7 @@ import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className='mx-auto mt-0'>
+    <div className=' flex flex-col max-w-7xl'>
       <Hero/>
     </div>
         
