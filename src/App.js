@@ -5,9 +5,8 @@ function App() {
     <h1 className="text-3xl font-bold underline">
       Hello Tailwingcss + React 18.2.0
     </h1>
-        <h1 className="text-3xl font-bold underline">
-      <h2> clasName="text-3x1 underline" <h2>
-    </h
+        
+      <h2  className="text-3xl font-bold underline"> olive <h2>
   );
 }
 
