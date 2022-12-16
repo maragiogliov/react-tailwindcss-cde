@@ -6,10 +6,11 @@ import Block1 from './Block1'
 import Block2 from './Block2'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Shop', href: '#' },
+  { name: 'Farm', href: '#' },
+  { name: 'Subscriptions', href: '#' },
+  { name: 'Articles', href: '#' },
+  { name: 'Story', href: '#' },
 ]
 
 export default function Example() {
@@ -44,9 +45,9 @@ export default function Example() {
           </defs>
         </svg>
       </div>
-      <div className="px-6 pt-6 lg:px-8">
-        <div>
-          <nav className="flex h-9 items-center justify-between" aria-label="Global">
+      <div className="  h-16 px-6 lg:px-8">
+        <div className='flex-row align-center justify-center'>
+          <nav className="flex h-16  items-center align-center justify-between" aria-label="Global">
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
@@ -63,7 +64,7 @@ export default function Example() {
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </button>
             </div>
-            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+            <div className=" hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900">
                   {item.name}
