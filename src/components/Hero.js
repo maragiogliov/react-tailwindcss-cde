@@ -29,7 +29,7 @@ export default function Example() {
             <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
-                <img className="h-32" src={logoai} alt="logo" />
+                <img className="h-16" src={logoai} alt="logo" />
             
 
               </a>
