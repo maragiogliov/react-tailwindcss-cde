@@ -6,7 +6,7 @@ const olivesPicture = new URL (".././assets/6848D3DB-B654-4941-8E26-6A75CA6A5AE3
 
 export default function Block1() {
   return (
-    <section class="flex items-center justify-center py-10 text-white bg-white sm:py-16 md:py-24 lg:py-32 tails-selected-element" contenteditable="true">
+    <section class="flex items-center justify-center py-10 text-white bg-white sm:py-16 md:py-24 lg:py-32 tails-selected-element" contenteditable="false">
     <div class="relative max-w-3xl px-10 text-center text-white auto lg:px-0">
         <div class="flex flex-col w-full md:flex-row">
 

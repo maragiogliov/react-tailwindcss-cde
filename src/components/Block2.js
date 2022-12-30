@@ -5,7 +5,7 @@ const olivesPicture = new URL (".././assets/6848D3DB-B654-4941-8E26-6A75CA6A5AE3
 export default function Block2() {
   return (
       <>
- <div class="max-w-7xl px-10 mx-auto sm:text-center tails-selected-element" contenteditable="true">
+ <div class="max-w-7xl px-10 mx-auto sm:text-center tails-selected-element" contenteditable="false">
         <p class="text-blue-500 font-medium uppercase">Our Application Integrations</p>
         <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3">Connect with Your Favorite Apps.</h2>
         <p class="mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">We've built integrations with some of your favorite services.<br class="lg:hidden hidden sm:block"/> Check'em out below 👇</p>
