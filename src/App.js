@@ -6,6 +6,7 @@ function App() {
   return (
     <div className=' flex flex-col max-w-7xl'>
       <Hero/>
+    
     </div>
         
  

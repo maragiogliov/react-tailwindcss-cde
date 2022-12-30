@@ -109,7 +109,7 @@ export default function Example() {
       </div>
       <main >
         <Block1/>
-        {/* <Block2/> */}
+        <Block2/>
       </main>
     </div>
   )
