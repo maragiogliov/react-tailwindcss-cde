@@ -1,0 +1,52 @@
+.Block1{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+height: 65vh;
+padding: 0;
+margin: 0;
+background-color: rgba(255, 255, 255, 0.466);
+position: relative;
+}
+.Block1__img1{
+width: auto;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+      
+  }
+.Block1__img2{
+object-fit: cover;
+width: auto;
+height: 100%;
+margin-left: 20%; 
+}
+.Block1-text-button{
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+align-items: center;
+text-align: center;
+padding-left: 2rem;
+padding-right: 2rem;
+background-color: rgba(255, 255, 255, 0.857);
+}
+.Block1-text-button h1{
+font-size: 3rem;
+}
+.Block1-text-button p{
+padding-left: 4rem;
+padding-right: 4rem;
+font-size: 0.8rem;
+}
+.Block1-text-button button{
+background-color: rgba(23, 80, 40, 0.88);
+color: white;
+width: 40%;
+height: 2.6rem;
+margin-top: 1rem;
+margin-bottom: 1rem;
+border-radius: 100px;
+}
