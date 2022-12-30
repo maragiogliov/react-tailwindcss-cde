@@ -12,10 +12,10 @@ const bottle = new URL ("../../assets/Group 90 1.png",import.meta.url)
           <img className='Block1__img1' src={bottle} alt='bottle picture' />
           <img className='Block1__img2' src={olivesPicture} alt='olives picture' />
       </section>
-      <section className='Block1-text-button'>
+      <section className='Block1-2'>
         <h1> Natural Taste of Sicily</h1>
-          <p>With over 50 years of family farm tradition, CDE elevate your cooking with our organic extra virgin olive oil.</p>
-          <button>Shop Olives</button>
+        <p>With over 50 years of family farm tradition, CDE elevate your cooking with our organic extra virgin olive oil.</p>
+        <button>Shop Olives</button>
       </section>
         </>
         
