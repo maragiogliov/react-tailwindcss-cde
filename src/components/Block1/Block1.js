@@ -8,7 +8,7 @@ const bottle = new URL ("../../assets/Group 90 1.png",import.meta.url)
       return (
         <>
         
-      <section className='Block1 lg:bg-orange-400'>
+      <section className='Block1'>
           <img className='Block1__img1 ' src={bottle} alt='bottle picture' />
           <img className='Block1__img2 lg:m-11' src={olivesPicture} alt='olives picture' />
       </section>
