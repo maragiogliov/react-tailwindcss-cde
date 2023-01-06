@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+
 .Block1{
 display: flex;
 flex-direction: row;
@@ -6,24 +8,15 @@ justify-content:space-evenly;
 height: 50vh;
 padding: 0;
 margin: 0;
-background-color: rgba(199, 24, 24, 0.718);
+background-color: #22200C;
 
 }
-.Block1__img1{
-width: auto;
-height: 100%;
 
-
-top: 0;
-left: 0;
-background-color: darkgray;
-      
-  }
 .Block1__img2{
 object-fit: cover;
 width: auto;
 height: 100rem;
-margin-left: 20%; 
+margin-left: 30%; 
 
 }
 .Block1-2{
@@ -34,11 +27,12 @@ align-items: center;
 text-align: center;
 padding-left: 2rem;
 padding-right: 2rem;
-background-color: rgba(0, 0, 0, 0.857);
+background-color: #6C6849;
 }
 .Block1-2 h1{
 font-size: 2.4rem;
 color: white;
+font-family: 'Elsie', cursive;;
 }
 .Block1-2 p{
 padding-left: 4rem;
