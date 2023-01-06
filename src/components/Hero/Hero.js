@@ -42,32 +42,25 @@ export default function Example() {
 
 
 
-              <a href="#" className="flex items-center justify-center">
+              <a href="#" className=" flex items-center justify-center">
                 <h1>COLLE DEGLI ELIMI</h1>
               </a>
-      <div className=' flex '>
-
-            <MagnifyingGlassIcon className='Magnify' />
-            
-            <ShoppingCartIcon className='ShoppingCart' />
-      </div>
+ 
             
            
-            <div className=" hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
+            <div className="  hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
               {navigation.map((item) => (
                 <a key={item.name} href={item.href} className="font-semibold text-gray-900 hover:text-gray-900">
                   {item.name}
                 </a>
               ))}
             </div>
-            <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
-              <a
-                href="#"
-                className="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-              >
-                Log in
-              </a>
-            </div>
+            <div className=' flex '>
+
+<MagnifyingGlassIcon className='Magnify'  />
+
+<ShoppingCartIcon className='ShoppingCart'  />
+</div>
           </nav>
           <Dialog as="div" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
             <Dialog.Panel focus="true" className="fixed inset-0 z-10 overflow-y-auto bg-white px-6 py-6 lg:hidden">
