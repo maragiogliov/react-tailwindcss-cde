@@ -1,7 +1,7 @@
 import React from 'react'
 import './Block1.css';
 
-const olivesPicture = new URL ("../../assets/6848D3DB-B654-4941-8E26-6A75CA6A5AE3.JPG",import.meta.url)
+const olivesPicture = new URL ("../../assets/OLIVES DARK GREEN.JPG",import.meta.url)
 const bottle = new URL ("../../assets/Group 90 1.png",import.meta.url)
     
     export default function Example() {

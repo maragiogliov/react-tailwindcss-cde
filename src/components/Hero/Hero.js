@@ -2,9 +2,10 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ShoppingCartIcon,MagnifyingGlassIcon } from '@heroicons/react/24/outline'
-import Block1 from '../Block1/Block1'
 import './Hero.css';
-
+import Block1 from '../Block1/Block1'
+import Block2 from '../Block2/Block2';
+import Block3 from '../Block3/Block3';
 
 const navigation = [
   { name: 'Shop', href: '#' },
@@ -118,6 +119,8 @@ export default function Example() {
       </div>
       <main >
         <Block1/>
+
+        <Block3 />
       </main>
     </div>
   )
