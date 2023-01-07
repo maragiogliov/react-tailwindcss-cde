@@ -15,7 +15,7 @@ export default function Block4() {
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="cta-text">
                                 <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                                <span>SS188, Salemi TP, Italy</span>
                             </div>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ export default function Block4() {
                             <i class="fas fa-phone"></i>
                             <div class="cta-text">
                                 <h4>Call us</h4>
-                                <span>9876543210 0</span>
+                                <span>0000000000</span>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ export default function Block4() {
                             <i class="far fa-envelope-open"></i>
                             <div class="cta-text">
                                 <h4>Mail us</h4>
-                                <span>mail@info.com</span>
+                                <span>cde.olive@info.com</span>
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Block4() {
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
-                                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"/></a>
+                            <h1>Colle Degli Elimi</h1>
                             </div>
                             <div class="footer-text">
                                 <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
@@ -58,7 +58,7 @@ export default function Block4() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <div class=" col-xl-4 col-lg-4 col-md-6 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>Useful Links</h3>
@@ -99,12 +99,6 @@ export default function Block4() {
         <div class="copyright-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
                         <div class="footer-menu">
                             <ul>
                                 <li><a href="#">Home</a></li>
@@ -114,7 +108,12 @@ export default function Block4() {
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
+                    <div class="footer-copyright">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2023, All Right Reserved <a href="/">Colle Degli Elimi</a></p>
+                        </div>
                     </div>
+                   
                 </div>
             </div>
         </div>
