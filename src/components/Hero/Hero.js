@@ -4,8 +4,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon, ShoppingCartIcon,MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 import './Hero.css';
 import Block1 from '../Block1/Block1'
-import Block2 from '../Block2/Block2';
 import Block3 from '../Block3/Block3';
+import Block4 from '../Block4/Block4';
 
 const navigation = [
   { name: 'Shop', href: '#' },
@@ -114,6 +114,8 @@ export default function Example() {
         <Block1/>
 
         <Block3 />
+        <Block4/>
+
       </main>
     </div>
   )
