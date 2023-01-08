@@ -6,6 +6,9 @@ import './Hero.css';
 import Block1 from '../Block1/Block1'
 import Block3 from '../Block3/Block3';
 import Block4 from '../Block4/Block4';
+import Block5 from '../Block5/Block5';
+import Block7 from '../Block7/Block7';
+
 
 const navigation = [
   { name: 'Shop', href: '#' },
@@ -21,10 +24,10 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="isolate bg-white max-w-7xl">
-      <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
-     
+    <div className="">
+      <div className=" inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       </div>
+      
       <div className="h-16 px-6 lg:px-8">
         <div className='flex-row align-center justify-center'>
           <nav className="  flex h-16  items-center align-center justify-between" aria-label="Global">
@@ -112,8 +115,10 @@ export default function Example() {
       </div>
       <main >
         <Block1/>
-
+        <Block7/>
+        <Block5/>
         <Block3 />
+        <Block5/>
         <Block4/>
 
       </main>

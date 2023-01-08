@@ -101,7 +101,7 @@ export default function Block4() {
                 <div class="row">
                         <div class="footer-menu">
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">Terms</a></li>
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Policy</a></li>
