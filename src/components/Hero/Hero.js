@@ -8,6 +8,7 @@ import Block3 from '../Block3/Block3';
 import Block4 from '../Block4/Block4';
 import Block5 from '../Block5/Block5';
 import Block7 from '../Block7/Block7';
+import BlockIGP from '../BlockIGP/BlockIGP'
 
 
 const navigation = [
@@ -118,7 +119,7 @@ export default function Example() {
         <Block7/>
         <Block5/>
         <Block3 />
-        <Block5/>
+        <BlockIGP/>
         <Block4/>
 
       </main>

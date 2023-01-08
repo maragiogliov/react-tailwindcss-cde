@@ -20,22 +20,23 @@ export default function Block3() {
             <img alt="gallery" class="block object-cover object-center w-full h-full "
             src={arbolConAlfombra} />
           </div>
-        </div>
-
-        <div class=" bg-black  flex flex-wrap w-1/2">
-          <div class="w-full p-1 md:p-2">
-            <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={guyPickingOlives} />
-          </div>
-          <div class="w-1/2 p-1 md:p-2">
+          <div class="w-full h-2/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full"
               src={arbolArropado } />
           </div>
-          <div class="w-1/2 p-1 md:p-2">
+        </div>
+
+        <div class=" bg-black  flex flex-wrap w-1/2">
+          <div class="w-full h-1/3 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full "
+            src={guyPickingOlives} />
+          </div>
+     
+          <div class="w-full h-1/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full"
               src={arbolChill } />
           </div>
-          <div class="w-full p-1 md:p-2">
+          <div class="w-full h-1/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full"
               src={arbolRanch}/>
           </div>
