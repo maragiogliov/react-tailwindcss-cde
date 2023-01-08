@@ -1,10 +1,16 @@
 import React from 'react'
 import './Block7.css';
+import { ReactComponent as NOMBRE } from '../../assets/NOMBRE.svg';
+
 
 const botellaEnMano = new URL ("../../assets/BOTELLA EN MANO.jpg",import.meta.url)
 const trailer = new URL ("../../assets/TRAILER.jpg", import.meta.url)
 const trailerDay = new URL ("../../assets/TRAILER DAY.jpg", import.meta.url)
-const basirico = new URL ("../../assets/BASIRICO.jpeg", import.meta.url)
+
+const olivesBucket = new URL ("../../assets/OLIVES 2022.png",import.meta.url)
+const bio = new URL ("../../assets/BIO.png",import.meta.url)
+const igp = new URL ("../../assets/IGP.png",import.meta.url)
+const fico = new URL ("../../assets/FICO DI INDIA.png",import.meta.url)
 
 
 export default function Block7() {
@@ -12,38 +18,37 @@ export default function Block7() {
       <>
   <section class="overflow-hidden text-gray-700">
     <div class="container">
-      <div class=" bg-black-300 flex flex-wrap -m-1 md:-m-2">
+      <div class=" bg-black-300 flex flex-wrap ">
   
 
         <div class=" bg-black  flex flex-wrap w-1/2">
-          <div class="w-full h-1/3 p-1 md:p-2">
+        <div class="w-full h-1/2 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={trailer} />
+            src={ botellaEnMano} />
           </div>
+          <div class="w-full h-1/2 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full "
+            src={fico} />
+          </div>
+          
          
-          <div class="w-full h-1/3 p-1 md:p-2">
-            <img alt="gallery" class="block object-cover object-center w-full h-full"
-              src={trailerDay } />
-          </div>
-          <div class="w-full h-1/3 p-1 md:p-2">
-            <img alt="gallery" class="block object-cover object-center w-full h-full"
-              src={basirico}/>
-          </div>
+    
         </div>
       
         <div class=" bg-black flex flex-wrap w-1/2">
           <div class="w-full h-1/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={ botellaEnMano} />
+            src={ olivesBucket} />
           </div>
           <div class="w-full h-1/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={ botellaEnMano} />
+            src={bio} />
           </div>
           <div class="w-full h-1/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={ botellaEnMano} />
+            src={ igp} />
           </div>
+       
         </div>
       </div>
     </div>
