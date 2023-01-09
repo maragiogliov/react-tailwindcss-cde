@@ -32,15 +32,15 @@ export const Animation2 = () => {
     containerRef.current.appendChild(renderer.domElement);
 
     // Create a new Three.js torus knot and add it to the scene
-    const geometry = new THREE.TorusKnotGeometry(1, 0.3, 100, 16);
-    const material = new THREE.MeshStandardMaterial({ color: 0x22200C });
+    const geometry = new THREE.TorusKnotGeometry(100, 20, 10, 160);
+    const material = new THREE.MeshStandardMaterial({ color: 0xffffffb4 });
     const figure = new THREE.Mesh(geometry, material);
     figure.castShadow = true;
     figure.receiveShadow = true;
     scene.add(figure);
 
     // Add a light source to the scene
-    const light = new THREE.DirectionalLight(0xffffff, 1);
+    const light = new THREE.DirectionalLight(0xffffff, 5);
     light.position.set(1, 1, 1);
     light.castShadow = true;
     scene.add(light);
