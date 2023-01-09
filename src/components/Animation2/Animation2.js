@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 
-export const Animation = () => {
+export const Animation2 = () => {
   const containerRef = useRef();
 
   useEffect(() => {
@@ -31,13 +31,13 @@ export const Animation = () => {
     // Add the renderer to the DOM
     containerRef.current.appendChild(renderer.domElement);
 
-    // Create a new Three.js cube and add it to the scene
-    const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const material = new THREE.MeshStandardMaterial({ color: 0xffffff59 });
-    const cube = new THREE.Mesh(geometry, material);
-    cube.castShadow = true;
-    cube.receiveShadow = true;
-    scene.add(cube);
+    // Create a new Three.js torus knot and add it to the scene
+    const geometry = new THREE.TorusKnotGeometry(1, 0.3, 100, 16);
+    const material = new THREE.MeshStandardMaterial({ color: 0x22200C });
+    const figure = new THREE.Mesh(geometry, material);
+    figure.castShadow = true;
+    figure.receiveShadow = true;
+    scene.add(figure);
 
     // Add a light source to the scene
     const light = new THREE.DirectionalLight(0xffffff, 1);
@@ -47,27 +47,29 @@ export const Animation = () => {
 
     // Add a plane to receive shadows
     const planeGeometry = new THREE.PlaneGeometry(5, 5);
-    const planeMaterial = new THREE.MeshStandardMaterial({ color: 0x22200C });
+    const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xFFFFF });
     const plane = new THREE.Mesh(planeGeometry, planeMaterial);
     plane.rotation.x = -Math.PI / 2;
     plane.receiveShadow = true;
     scene.add(plane);
 
-    // Position the camera so that it is pointing at the cube
+    // Position the camera so that it is pointing at the figure
     camera.position.z = 2;
 
-    // Animate the cube
+    // Animate the figure
     const animate = function () {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.005;
-      cube.rotation.y += 0.005;
+      figure.rotation.x += 0.0035;
+      figure.rotation.y += 0.0035;
       renderer.render(scene, camera);
     };
 
     animate();
+
+
   }, []);
 
   return <div ref={containerRef} className='flex  justify-around ' />;
 };
 
-export default Animation;
+export default Animation2;
