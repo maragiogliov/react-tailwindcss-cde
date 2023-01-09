@@ -15,6 +15,15 @@ export const Animation = () => {
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
 
+    window.addEventListener('resize', function() 
+    {
+      let width = window.innerWidth;
+      let height = window.innerHeight
+      renderer.setSize(width,height);
+      camera.aspect = width / height;
+      camera.updateProjectionMatrix( );
+    })
+
     // Add the renderer to the DOM
     containerRef.current.appendChild(renderer.domElement);
 
@@ -38,7 +47,7 @@ export const Animation = () => {
     animate();
   }, []);
 
-  return <div ref={containerRef} />;
+  return <div ref={containerRef} className=' flex  justify-around ' />;
 };
 
 export default Animation;

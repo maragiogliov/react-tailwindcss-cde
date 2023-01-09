@@ -9,7 +9,7 @@ import Block4 from '../Block4/Block4';
 import Block5 from '../Block5/Block5';
 import Block7 from '../Block7/Block7';
 import BlockIGP from '../BlockIGP/BlockIGP'
-
+import Animation from '../Animation/Animation';
 
 const navigation = [
   { name: 'Shop', href: '#' },
@@ -119,6 +119,7 @@ export default function Example() {
         <Block7/>
         <Block5/>
         <Block3 />
+        <Animation/>
         <BlockIGP/>
         <Block4/>
 
