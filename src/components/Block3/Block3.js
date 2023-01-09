@@ -1,5 +1,7 @@
 import React from 'react'
 import './Block3.css';
+import Animation from '../Animation/Animation';
+
 const guyPickingOlives = new URL ("../../assets/GUY PICKING OLIVES .jpg",import.meta.url)
 const arbolConAlfombra = new URL ("../../assets/ARBOL CON ALFOMBRA.JPG",import.meta.url)
 const arbolArropado = new URL ("../../assets/ARBOL ARROPADO.JPG",import.meta.url)
@@ -16,10 +18,11 @@ export default function Block3() {
       <div class=" bg-black-300 flex flex-wrap -m-1 md:-m-2">
 
         <div class=" bg-black flex flex-wrap w-1/2">
-          <div class="w-full h-1/3 p-1 md:p-2">
-            <img alt="gallery" class="block object-cover object-center w-full h-full "
-            src={arbolConAlfombra} />
+        <div class=" bg-slate-200 w-full ">
+           
+        <Animation/>
           </div>
+
           <div class="w-full h-2/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full"
               src={arbolArropado } />
