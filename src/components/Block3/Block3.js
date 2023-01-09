@@ -15,19 +15,21 @@ export default function Block3() {
       <>
   <section class="overflow-hidden text-gray-700">
     <div class="container">
-      <div class=" bg-black-300 flex flex-wrap -m-1 md:-m-2">
+      <div class=" bg-black-300 flex flex-wrap -m-1 md:-m-2 lg:w-1/2">
 
-        <div class=" bg-black flex flex-wrap w-1/2">
-        <div class=" bg-slate-200 w-full ">
-           
-        <Animation/>
+
+      <div class=" bg-black  flex flex-wrap w-1/2 ">
+          <div class="w-full h-1/3 p-1 md:p-2">
+            <img alt="gallery" class="block object-cover object-center w-full h-full "
+            src={arbolChill} />
           </div>
-
+     
           <div class="w-full h-2/3 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full"
-              src={arbolArropado } />
+              src={arbolArropado}/>
           </div>
-        </div>
+      </div>
+          
 
         <div class=" bg-black  flex flex-wrap w-1/2">
           <div class="w-full h-1/3 p-1 md:p-2">

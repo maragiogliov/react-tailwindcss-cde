@@ -18,10 +18,10 @@ export default function Block7() {
       <>
   <section class="overflow-hidden text-gray-700">
     <div class="container">
-      <div class=" bg-black-300 flex flex-wrap ">
+      <div class=" bg-black-300 flex flex-wrap lg:w-1/2 ">
   
 
-        <div class=" bg-black  flex flex-wrap w-1/2">
+        <div class=" bg-black  flex flex-wrap w-1/2 ">
         <div class="w-full h-1/2 p-1 md:p-2">
             <img alt="gallery" class="block object-cover object-center w-full h-full "
             src={ botellaEnMano} />

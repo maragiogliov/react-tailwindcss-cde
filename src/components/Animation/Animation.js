@@ -29,12 +29,12 @@ export const Animation = () => {
 
     // Create a new Three.js cube and add it to the scene
     const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const material = new THREE.MeshBasicMaterial({ color: 'blue' });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
     // Position the camera so that it is pointing at the cube
-    camera.position.z = 5;
+    camera.position.z = 2;
 
     // Animate the cube
     const animate = function () {
@@ -47,7 +47,7 @@ export const Animation = () => {
     animate();
   }, []);
 
-  return <div ref={containerRef} className=' flex  justify-around ' />;
+  return <div ref={containerRef} className='flex  justify-around ' />;
 };
 
 export default Animation;
