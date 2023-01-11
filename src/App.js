@@ -9,18 +9,20 @@ import { useState } from 'react';
 function App() {
   const [locale, setLocale]=useState(LOCALES.ENGLISH)
   return (
+    <>
     <I18nProvider locale={locale}>
+      <div className='general-container '>
       <section className='buttons-language-container'>
       <button onClick={()=> setLocale(LOCALES.ENGLISH)}>English</button>
       <button onClick={()=> setLocale(LOCALES.GERMAN)}>German</button>
       <button onClick={()=> setLocale(LOCALES.FRENCH)}>French</button>
       </section>
-      <div className='general-container '>
         <Hero/>
         <Contact/>
       </div>
 
     </I18nProvider>
+    </>
   );
 }
 
