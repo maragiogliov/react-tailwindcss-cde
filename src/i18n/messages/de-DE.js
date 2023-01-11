@@ -4,5 +4,6 @@ export default {
   [LOCALES.GERMAN]: {
     'edit-file': 'Bearbeiten Sie {file} und speichern Sie es, um es neu zu laden.',
     'hello': 'Hallo',
+    'Natural Taste of Sicily':'Natürlicher Geschmack Siziliens'
   },
 };
