@@ -19,7 +19,8 @@ html, body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: rgba(118, 118, 118, 0.281);
+
+  background-color: rgba(0, 0, 0, 0.327);
   right: 2rem;
   position: absolute;
   width: 30%;
@@ -27,8 +28,17 @@ html, body{
 
 }
 
+.buttons-language-container button{
+  height: 2.4rem;
+}
+
 .buttons_languages{
+  
+  margin-bottom: -10px;
  height: auto;
-  width: 3rem;
+  width: 1.6rem;
+}
+.active {
+  border-bottom: 2px solid greenyellow;
 }
 
