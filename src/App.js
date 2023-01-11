@@ -1,11 +1,13 @@
 import './App.css';
 import '@tailwindcss/forms'
 import Hero from './components/Hero/Hero'
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
-    <div className=' flex flex-col max-w-7xl'>
+    <div className='general-container '>
       <Hero/>
+      <Contact/>
     </div>
         
  

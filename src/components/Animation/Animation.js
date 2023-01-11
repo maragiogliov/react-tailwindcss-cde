@@ -19,6 +19,9 @@ export const Animation = () => {
     renderer.shadowMap.type = THREE.PCFShadowMap;
     renderer.shadowMap.enabled = true;
 
+    renderer.setClearColor( 0xffffff, 0);
+
+
     window.addEventListener('resize', function() 
     {
       let width = window.innerWidth;
@@ -33,7 +36,7 @@ export const Animation = () => {
 
     // Create a new Three.js cube and add it to the scene
     const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const material = new THREE.MeshStandardMaterial({ color: 0xffffff59 });
+    const material = new THREE.MeshStandardMaterial({ color: 0x175028 });
     const cube = new THREE.Mesh(geometry, material);
     cube.castShadow = true;
     cube.receiveShadow = true;
@@ -47,7 +50,7 @@ export const Animation = () => {
 
     // Add a plane to receive shadows
     const planeGeometry = new THREE.PlaneGeometry(5, 5);
-    const planeMaterial = new THREE.MeshStandardMaterial({ color: 0x22200C });
+    const planeMaterial = new THREE.MeshStandardMaterial({ color: 0xffffff });
     const plane = new THREE.Mesh(planeGeometry, planeMaterial);
     plane.rotation.x = -Math.PI / 2;
     plane.receiveShadow = true;
@@ -59,15 +62,15 @@ export const Animation = () => {
     // Animate the cube
     const animate = function () {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.005;
-      cube.rotation.y += 0.005;
+      cube.rotation.x += 0.003;
+      cube.rotation.y += 0.003;
       renderer.render(scene, camera);
     };
 
     animate();
   }, []);
 
-  return <div ref={containerRef} className='flex  justify-around ' />;
+  return <div ref={containerRef} className='flex justify-around  ' />;
 };
 
 export default Animation;

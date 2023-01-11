@@ -148,6 +148,7 @@ ul {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+
   width: 100%;
 
 }
@@ -157,7 +158,7 @@ ul {
     align-content: center;
     overflow: hidden;
     background-color: #55ACEE;
-    width: 75%;
+    width: 70%;
   
   }
 .subscribe-form input {
@@ -167,7 +168,15 @@ ul {
   border: 1px solid #6DB500;
   color: #fff;
 }
+
+
+
+
 .subscribe-form button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: #6DB500;
     border: 1px solid #6DB500;
     width: 25%;

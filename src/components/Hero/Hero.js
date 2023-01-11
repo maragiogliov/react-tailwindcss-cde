@@ -10,6 +10,7 @@ import Block5 from '../Block5/Block5';
 import Block7 from '../Block7/Block7';
 import BlockIGP from '../BlockIGP/BlockIGP'
 import Animation2 from '../Animation2/Animation2';
+import Contact from '../Contact/Contact'
 
 const navigation = [
   { name: 'Shop', href: '#' },

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Block7.css';
-import { ReactComponent as NOMBRE } from '../../assets/NOMBRE.svg';
+import { ReactComponent as TITLE } from '../../assets/TITLE.svg';
 
 
 const botellaEnMano = new URL ("../../assets/BOTELLA EN MANO.jpg",import.meta.url)

@@ -1,6 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Block4.css';
 
+let email 
+let handleChange
+function SubscribeForm() {
+    const [email, setEmail] = useState('');
+  
+    function handleChange(event) {
+      setEmail(event.target.value);
+      console.log(handleChange, 'email sent');
+    }
+}
 
 
 export default function Block4() {
@@ -85,10 +95,15 @@ export default function Block4() {
                             <div class="footer-text mb-25">
                                 <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address" />
-                                    <button><i class="fab fa-telegram-plane"></i></button>
+                            <div className="subscribe-form">
+                                <form>
+                                    <input 
+                                    type="email" 
+                                    placeholder="Email Address" 
+                                    value={email}
+                                    onChange={handleChange} 
+                                    />
+                                    <button type="submit">SEND</button>
                                 </form>
                             </div>
                         </div>
