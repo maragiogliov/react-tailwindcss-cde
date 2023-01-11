@@ -16,19 +16,19 @@ html, body{
 }
 
 .buttons-language-container{
-  height: 14rem;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: black;
-  padding: 1rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(118, 118, 118, 0.281);
   right: 2rem;
   position: absolute;
-  z-index: 90;
+  width: 30%;
+  height: 3rem;
 
 }
 
-button{
-  padding: 0.6rem;
-  background-color: rgb(255, 255, 255);
+.buttons_languages{
+ height: auto;
+  width: 3rem;
 }
+
