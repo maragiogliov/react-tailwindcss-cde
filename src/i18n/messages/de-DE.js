@@ -2,8 +2,13 @@ import { LOCALES } from '../locales';
 
 export default {
   [LOCALES.GERMAN]: {
-    'edit-file': 'Bearbeiten Sie {file} und speichern Sie es, um es neu zu laden.',
     'hello': 'Hallo',
-    'Natural Taste of Sicily':'Natürlicher Geschmack Siziliens'
-  },
+
+    'Natural Taste of Sicily':'Natürlicher Geschmack Siziliens',
+
+
+    'With over 50 years of family farm tradition, CDE elevate your cooking with our    organic extra virgin olive oil.':'Mit über 50 Jahren landwirtschaftlicher Familientradition veredelt CDE Ihre Küche mit unserem nativen Bio-Olivenöl extra.',
+    
+    'Shop Olives':'Oliven kaufen' 
+ },
 };

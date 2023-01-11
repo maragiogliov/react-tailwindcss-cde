@@ -18,11 +18,10 @@ const olivesPicture = new URL ("../../assets/OLIVES DARK GREEN.JPG",import.meta.
                   
                 </h1>
                 <p>
-                "With over 50 years of family farm tradition, CDE elevate your cooking with our organic extra virgin olive oil."
-            
+                {translate("With over 50 years of family farm tradition, CDE elevate your cooking with our organic extra virgin olive oil.")}          
                 </p>
                 <button>
-                 "Shop Olives"
+                 {translate("Shop Olives")}
              
                 </button>
               </section>
